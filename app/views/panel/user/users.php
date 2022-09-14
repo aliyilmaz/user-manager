@@ -20,7 +20,7 @@
     <?php $this->addLayer('app/views/panel/header'); ?>
     <div class="m-4">
 
-        <h2>Users</h2>
+        <h2>Users <a href="panel/user/add" class="btn btn-primary rounded-circle"><i class="bi bi-plus"></i></a> </h2>
         <br>
 
         <form action="<?=$this->base_url;?>" method="post">
@@ -72,7 +72,7 @@
             <table class="table" role="table">
                 <thead role="rowgroup">
                 <tr role="row">
-                    <th role="columnheader">Image <input type="checkbox" name="columns[]" value="image"></th>
+                    <th role="columnheader">Avatar <input type="checkbox" name="columns[]" value="image"></th>
                     <th role="columnheader">Id <input type="checkbox" name="columns[]" value="id"></th>
                     <th role="columnheader">Username <input type="checkbox" name="columns[]" value="username"></th>
                     <th role="columnheader">Email <input type="checkbox" name="columns[]" value="email"></th>
