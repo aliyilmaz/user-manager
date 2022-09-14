@@ -1,13 +1,13 @@
-# news-manager
+# user-manager
 
-Bu proje news-manager projesinin bir yansısıdır. Bu döküman ise projeye katılacak çalışma arkadaşlarımızın aşağıdaki yönerge ışığında projeyi kurması, geliştirmesi, yedeklemesi ve yansıyı yönetmesine ilişkin bilgileri içerir.
+Bu proje user-manager projesinin bir yansısıdır. Bu döküman ise projeye katılacak çalışma arkadaşlarımızın aşağıdaki yönerge ışığında projeyi kurması, geliştirmesi, yedeklemesi ve yansıyı yönetmesine ilişkin bilgileri içerir.
 
 ## 1. Edinme
 
 Projeyi edinmek için aşağıdaki komutu terminal'den çalıştırın, böylelikle proje varlıklarının bilgisayarınıza inmesi mümkün olacaktır.
 
 ```bash
-git clone https://github.com/aliyilmaz/news-manager.git
+git clone https://github.com/aliyilmaz/user-manager.git
 ```
 
 ## 2. Ayarlar
@@ -17,7 +17,7 @@ Aşağıda belirtilen ayarlar yapılarak proje, kuruluma hazır hale getirilir.
 Eğer Apple Macinizde veya bir Linux dağıtımında çalışıyorsanız, aşağıdaki komut yardımıyla proje dizinine yazma izni uygulamanız gerekmektedir.
 
 ```bash
-sudo chmod -R 777 news-manager
+sudo chmod -R 777 user-manager
 ```
 
 **Bilgi:**
@@ -25,7 +25,7 @@ Bu komut, sunucu yazılımı türüne göre otomatik oluşturulan .htaccess dosy
 
 ### 2.2 Veritabanı
 
-Proje içeriklerinin tutulacağı veritabanı türü varsayılan olarak mysql olup, sqlite ve sqlsrv veritabanları da tercih edilebilir. Veritabanı adı varsayılan olarak news_manager'dir. Kurulum adımına geçilmeden önce bu isimde veritabanının daha önce oluşturulmadığına emin olunması gerekmektedir.
+Proje içeriklerinin tutulacağı veritabanı türü varsayılan olarak mysql olup, sqlite ve sqlsrv veritabanları da tercih edilebilir. Veritabanı adı varsayılan olarak user_manager'dir. Kurulum adımına geçilmeden önce bu isimde veritabanının daha önce oluşturulmadığına emin olunması gerekmektedir.
 
 ### 2.3 Güvenlik
 
