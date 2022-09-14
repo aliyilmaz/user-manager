@@ -1,5 +1,5 @@
 <?php
-
+$this->addLayer('app/middleware/online'); 
 // $this->print_pre($this->post);
 
 $values = [];

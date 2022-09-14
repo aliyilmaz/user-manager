@@ -1,6 +1,5 @@
 <?php
-
-$this->addLayer('app/middleware/lifetime/user');
+$this->addLayer('app/middleware/online'); 
 if(isset($this->post['user_id'])){
     $user = $this->theodore('users', ['id'=>$this->post['user_id']]);
     if(!empty($user)){

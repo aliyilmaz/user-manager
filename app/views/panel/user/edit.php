@@ -1,3 +1,4 @@
+<?php $this->addLayer('app/middleware/online'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

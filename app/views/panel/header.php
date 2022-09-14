@@ -11,7 +11,7 @@
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
         <li><a href="panel/users" class="btn border-0">Users</a></li>
-        <li><a href="panel/user/add" class="btn border-0">New User</a></li>
+        <li><a href="account/logout" class="btn border-0">Logout</a></li>
     </ul>
 </header>
 <br>
