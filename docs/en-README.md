@@ -36,3 +36,7 @@ For detailed information on this subject, you can read the [related](https://git
 
 ## 3. Install
 If you write the path you left on your local server from the address line for once and run it, the project installation will take place.
+
+## 4. Login
+
+When you type the path you left on your local server from the address line, you will be directed to the `account/login` page. On this page, you can log in by typing `aliyilmaz.work@gmail.com` in the Email field and `123456` in the Password field.

@@ -36,3 +36,7 @@ Bu konu hakkında detaylı bilgi için Mind Framework dökümanındaki [ilgili](
 
 ## 3. Kurulum
 Yerel sunucunuzda bıraktığınız yolu adres satırından bir defalığına yazıp çalıştırmanız halinde proje kurulumu gerçekleşecektir.
+
+## 4. Giriş
+
+Yerel sunucunuzda bıraktığınız yolu adres satırından yazdığınızda `account/login` sayfasına yönlendirileceksiniz. Bu sayfada Email kısmına `aliyilmaz.work@gmail.com`, Parola kısmına `123456` yazarak giriş işlemini gerçekleştirebilirsiniz.
