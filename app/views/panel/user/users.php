@@ -6,9 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" user="IE=edge">
     <meta name="viewport" user="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="public/assets/lib/bootstrap-5.2.0/css/bootstrap.min.css" />
+    <script src="public/assets/lib/bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="public/assets/lib/bootstrap-icons-1.9.1/bootstrap-icons.css">
+    
     <link rel="stylesheet" href="public/assets/header.css">
     <link rel="stylesheet" href="public/assets/pagination.css">
     <link rel="stylesheet" href="public/assets/table.css">
