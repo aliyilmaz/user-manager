@@ -23,7 +23,7 @@ $message = [
       'required'=>'The password must be specified.'
    ],
    'email'=>[
-      'required'=>'The email must be specified.',
+      'email'=>'The email must be specified.',
       'unique'=>'An unused email must be specified.'
    ],
    'group_name'=>[
@@ -40,7 +40,7 @@ $message = [
 if(isset($this->post['username'])){
    
    $this->post['username'] = (!empty($this->post['username'])) ? $this->post['username'] : '';
-   $this->post['password'] = (!empty($this->post['password'])) ? $this->post['password'] : '';
+   $this->post['password'] = (!empty($this->post['password'])) ? md5($this->post['password']) : '';
    $this->post['email'] = (!empty($this->post['email'])) ? $this->post['email'] : '';
    $this->post['group_name'] = (!empty($this->post['group_name'])) ? $this->post['group_name'] : '';
    $this->post['about'] = (!empty($this->post['about'])) ? $this->post['about'] : '';
@@ -48,7 +48,7 @@ if(isset($this->post['username'])){
    
    if($this->validate($rule, $this->post, $message)){
       $values['username'] = $this->post['username'];
-      $values['password'] = md5($this->post['password']);
+      $values['password'] = $this->post['password'];
       $values['email'] = $this->post['email'];
       $values['group_name'] = $this->post['group_name'];
       $values['about'] = $this->post['about'];
